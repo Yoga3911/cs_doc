@@ -40,7 +40,7 @@ Console.WriteLine($"There are total of {total} apples");
 | ----- | --------- | ---- | --------- | ----- | ------ |
 | float | System.Single | 4 bytes | 7 digits | +-1.5 x 10-45 to +-3.4 x 1038 | F atau f |
 | double | System.Double | 8 bytes | 15-16 digits | +-5.0 x 10-324 to +-1.7 x 10308 | D atau d |
-| decimal | System.Decimal | 16 bytes | 28-29 decimal places	+-1.0 x 10-28 to +-7.9 x 1028 | M atau m |
+| decimal | System.Decimal | 16 bytes | 28-29 decimal places | +-1.0 x 10-28 to +-7.9 x 1028 | M atau m |
 
 ```c#
 float n1 = 1.234f;
