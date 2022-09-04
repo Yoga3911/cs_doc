@@ -98,7 +98,9 @@ List<string> data = new List<string>();
 // Cara menambahkan data kedalam sebuah list
 data.Add("oke");
 
+// Membuat sebuah List sekaligus mengisi value nya
 List<string> data2 = new List<string>{"apel", "melon"};
+
 List<int> data3 = new List<int>{1, 2, 3, 4};
 
 Console.WriteLine(data[0]);
@@ -107,7 +109,7 @@ Console.WriteLine(data2[1]);
 Console.WriteLine(data3[0]);
 Console.WriteLine(data3[1]);
 ```
-*"Perlu diperhatikan tipe data perlu diisi ketika ingin membuat sebuah List<Type>."*
+*"Perlu diperhatikan tipe data perlu diisi ketika ingin membuat sebuah List<Tipe Data>."*
 ### Dictionary
 ```c#
 // Deklarasi dan inisialisasi
@@ -115,6 +117,8 @@ Dictionary<string, int> map = new Dictionary<string, int>();
 // Tipe string -> key, int -> value
 // Cara menambahkan data kedalam sebuah Dictionary
 map.Add("umur", 20);
+
+// Membuat sebuah Dictioanry sekaligus mengisi value nya
 Dictionary<string, int> map2 = new Dictionary<string, int>{
     {"a", 1},
     {"b", 2},
@@ -125,14 +129,93 @@ Console.WriteLine(map["umur"]);
 Console.WriteLine(map2["a"]);
 Console.WriteLine(map2["b"]);
 ```
-*"Perlu diperhatikan tipe data untuk key dan value perlu diisi ketika ingin membuat sebuah Dictionary<Type, Type>."*
+*"Perlu diperhatikan tipe data untuk key dan value perlu diisi ketika ingin membuat sebuah Dictionary<Tipe Data, Tipe Data>."*
 ## 2. Variabel
 ### Strongly Type
+C# adalah salah satu bahasa pemrograman yang strongly type. Dengan kata lain untuk mendefinisikan sebuah variable kita perlu memberi tipe data dari variable tersebut.
 ### Cara Deklarasi
+```c#
+int harga;
+// int -> Tipe Data
+// harga -> Nama variable
+```
 ### Cara Inisialisasi (Assign Value)
+```c#
+int harga = 10;
+// int -> Tipe Data
+// harga -> Nama variable
+// = -> Operator Assignment
+// 10 -> Nilai dari variable harga
+```
 ## 3. Operator
+*"x dan y adalah operand, + - * / % adalah operator"*
 ### Arithmetic Operators
+Digunakan untuk operasi aritmatika.
+| Operator | Name | Description |
+| -------- | ---- | ----------- |
+| + | Addition | Menambahkan nilai dua operand, x + y |
+| - | Subtraction | Mengurangi nilai dua operand, x - y |
+| * | Multiplication | Mengalikan nilai dua operand, x * y |
+| / | Division | Membagi nilai dua operand, x / y |
+| % | Modulus | Mendapatkan sisa bagi dua operand, x % y |
+
+```c#
+int result;
+int x = 10, y = 5;
+
+// Addition
+result = (x + y);
+Console.WriteLine("Addition Operator: " + result);
+
+// Subtraction
+result = (x - y);
+Console.WriteLine("Subtraction Operator: " + result);
+
+// Multiplication
+result = (x * y);
+Console.WriteLine("Multiplication Operator: " + result);
+
+// Division
+result = (x / y);
+Console.WriteLine("Division Operator: " + result);
+
+// Modulos
+result = (x % y);
+Console.WriteLine("Modulo Operator: " + result);
+```
+
+*"Khusus untuk operator penjumlahan dan pengurangan termasuk kedalam unary operator. Dengan kata lain dapat menggunakan keyword ++ untuk menambahkan nilai dengan 1 dan -- untuk mengurangi nilai dengan 1."*
+
+```c#
+int a = 10, b;
+
+b = a++;
+
+Console.WriteLine("a is {0} and b is {1}", a, b);
+
+b = a--;
+
+Console.WriteLine("a is {0} and b is {1}", a, b);
+
+b = ++a;
+
+Console.WriteLine("a is {0} and b is {1}", a, b);
+
+b = --a;
+
+Console.WriteLine("a is {0} and b is {1}", a, b);
+```
+
 ### Relational Operators
+Digunakan untuk membandingkan dua nilai.
+| Operator | Name | Description |
+| -------- | ---- | ----------- |
+| == | Equal To | Membandingkan apakah dua operand memiliki nilai sama, x == y |
+| != | Not Equal To | Membandingkan apakah dua operand memiliki nilai yang tidak sama, x != y |
+| > | Greater Than | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih besar, x > y |
+| < | Less Than | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih kecil, x < y |
+| >= | Greater Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih besar sama dengan, x >= y |
+| <= | Less Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih kecil sama dengan, x <= y |
 ### Logical Operators
 ### Bitwise Operators
 ### Assignment Operators
