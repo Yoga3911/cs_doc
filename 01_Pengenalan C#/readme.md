@@ -327,7 +327,45 @@ Console.WriteLine("Result: " + result);
 
 ## 4. Percabangan
 ### If, Else If, Else
+```c#
+int angka = 10;
+
+if (angka > 10)
+{
+    Console.WriteLine("Lebih Dari 10");
+}
+else if (angka < 10)
+{
+    Console.WriteLine("Kurang Dari 10");
+}
+else
+{
+    Console.WriteLine("Sama Dengan 10");
+}
+```
 ### Switch
+```c#
+int angka = 5;
+switch (angka)
+{
+    case 1: // IF
+        {
+            Console.WriteLine("Senin");
+            break;
+        }
+    case 2: // ELSE IF
+        {
+            Console.WriteLine("Selasa");
+            break;
+        }
+    default: // ELSE
+        {
+            Console.WriteLine("Selasa");
+            break;
+
+        }
+}
+```
 ## 5. Perulangan
 ### For
 ### While
