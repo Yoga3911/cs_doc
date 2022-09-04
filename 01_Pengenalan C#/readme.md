@@ -25,12 +25,17 @@
 | ulong | System.UInt64 | 8 bytes | 0 to 18,446,744,073,709,551,615 |
 
 ```c#
-int baskets = 16;
-int applesInBasket = 24;
+byte umur = 20;
+short harga = 20000;
+long total = 19000000000;
 
-int total = baskets * applesInBasket;
+Console.WriteLine(umur);
+Console.WriteLine(harga);
+Console.WriteLine(total);
 
-Console.WriteLine($"There are total of {total} apples");
+Console.WriteLine(umur.GetType());
+Console.WriteLine(harga.GetType());
+Console.WriteLine(total.GetType());
 ```
 
 *Kapan menggunakan type short, int, long? "Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255). Apabila perlu tipe data untuk transaksi bisa menggunakan tipe int atau long."*
@@ -44,7 +49,7 @@ Console.WriteLine($"There are total of {total} apples");
 
 ```c#
 float n1 = 1.234f;
-double n2 = 1.234;
+double n2 = 1.234; // Khusus untuk double dapat mengosongkan Suffix
 decimal n3 = 1.234m;
 
 Console.WriteLine(n1);
@@ -59,6 +64,22 @@ Console.WriteLine(n3.GetType());
 *"Sama halnya dengan Integer, pilih tipe float sesuai kebutuhan."*
 
 ### Boolean
+| Value | Description |
+| ----- | ----------- |
+| true | Ketika kondisi memenuhi atau bernilai benar |
+| false | Ketika kondisi tidak memenuhi atau bernilai salah |
+
+```c#
+bool benar = true;
+bool salah = false;
+
+
+Console.WriteLine(benar);
+Console.WriteLine(salah);
+
+Console.WriteLine(benar.GetType());
+Console.WriteLine(salah.GetType());
+```
 ### String
 ### List
 ### Dictionary
