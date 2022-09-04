@@ -274,11 +274,11 @@ Console.WriteLine("NOT Operator: " + result);
 ### Assignment Operators
 | Operator | Name | Description |
 | :------: | ---- | ----------- |
-| += | Add Assignment | a += b == a = a + b |
-| -= | Subtract Assignment | a -= b == a = a - b |
-| *= | Multiply Assignment | a *= b == a = a * b |
-| /= | Division Assignment | a /= b == a = a / b |
-| %= | Modulus Assignment | a %= b == a = a % b |
+| += | Add Assignment | a += b sama dengan a = a + b |
+| -= | Subtract Assignment | a -= b sama dengan a = a - b |
+| *= | Multiply Assignment | a *= b sama dengan a = a * b |
+| /= | Division Assignment | a /= b sama dengan a = a / b |
+| %= | Modulus Assignment | a %= b sama dengan a = a % b |
 
 ```c#
 int x = 15;
