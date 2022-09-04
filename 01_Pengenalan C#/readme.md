@@ -152,7 +152,7 @@ int harga = 10;
 ### Arithmetic Operators
 Digunakan untuk operasi aritmatika.
 | Operator | Name | Description |
-| -------- | ---- | ----------- |
+| :------: | ---- | ----------- |
 | + | Addition | Menambahkan nilai dua operand, x + y |
 | - | Subtraction | Mengurangi nilai dua operand, x - y |
 | * | Multiplication | Mengalikan nilai dua operand, x * y |
@@ -209,7 +209,7 @@ Console.WriteLine("a is {0} and b is {1}", a, b);
 ### Relational Operators
 Digunakan untuk membandingkan dua nilai.
 | Operator | Name | Description |
-| -------- | ---- | ----------- |
+| :------: | ---- | ----------- |
 | == | Equal To | Membandingkan apakah dua operand memiliki nilai sama, x == y |
 | != | Not Equal To | Membandingkan apakah dua operand memiliki nilai yang tidak sama, x != y |
 | > | Greater Than | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih besar, x > y |
