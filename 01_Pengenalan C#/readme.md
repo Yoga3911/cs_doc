@@ -368,7 +368,46 @@ switch (angka)
 ```
 ## 5. Perulangan
 ### For
+```c#
+// int 1 = 0 -> Deklarasi dan Inisialisasi Variable
+// i > 10 -> Kondisi i kurang dari 10
+// i++ -> Expression, menambahkan nilai i dengan 1 tiap iterasinya
+for (int i = 0; i < 10; i++) {
+    Console.WriteLine(i);
+}
+
+// Penggunaan For untuk menampilkan data dari List dan Dictionary
+List<int> data = new List<int> { 1, 2, 3, 4, 5 };
+
+foreach (var i in data)
+{
+    Console.WriteLine(i);
+    Console.WriteLine(i);
+}
+
+Console.WriteLine("===========");
+
+Dictionary<string, int> data2 = new Dictionary<string, int> {
+    {"a", 1},
+    {"b", 2},
+    {"c", 3},
+};
+
+foreach (var i in data2)
+{
+    Console.WriteLine(i.Key);
+    Console.WriteLine(i.Value);
+}
+```
 ### While
+```c#
+int angka = 2;
+while (angka < 10)
+{
+    Console.WriteLine(angka);
+    angka += 2;
+}
+```
 ## 6. Fungsi
 ### Void
 ## 7. Parameter
