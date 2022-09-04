@@ -23,6 +23,9 @@
 | uint | System.UInt32 | 4 bytes | 0 to 4,294,967,295 |
 | long | System.Int64 | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | ulong | System.UInt64 | 8 bytes | 0 to 18,446,744,073,709,551,615 |
+
+_Kapan menggunakan type short, int, log?_ *Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255)*
+
 ### Float
 ### Boolean
 ### String
