@@ -217,6 +217,13 @@ Digunakan untuk membandingkan dua nilai.
 | >= | Greater Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih besar sama dengan, x >= y |
 | <= | Less Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih kecil sama dengan, x <= y |
 ### Logical Operators
+Digunakan untuk operasi aritmatika.
+| Operator | Name | Description |
+| :------: | :--: | ----------- |
+| && | AND | Mengembalikan nilai true jika dua kondisi terpenuhi dan sebaliknya |
+| || | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
+| ! | NOT | Membalikkan suatu nilai boolean, apabila kondisi terpenuhi mengembalikan false dan sebaliknya |
+
 ### Bitwise Operators
 ### Assignment Operators
 ### Conditional Operator
