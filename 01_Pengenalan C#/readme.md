@@ -216,6 +216,35 @@ Digunakan untuk membandingkan dua nilai.
 | < | Less Than | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih kecil, x < y |
 | >= | Greater Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih besar sama dengan, x >= y |
 | <= | Less Than Equal To | Membandingkan dua operand apakah salah satu operand memiliki nilai lebih kecil sama dengan, x <= y |
+
+```c#
+bool result;
+int x = 5, y = 10;
+
+// Equal to Operator
+result = (x == y);
+Console.WriteLine("Equal to Operator: " + result);
+
+// Greater than Operator
+result = (x > y);
+Console.WriteLine("Greater than Operator: " + result);
+
+// Less than Operator
+result = (x < y);
+Console.WriteLine("Less than Operator: " + result);
+
+// Greater than Equal to Operator
+result = (x >= y);
+Console.WriteLine("Greater than or Equal to: " + result);
+
+// Less than Equal to Operator
+result = (x <= y);
+Console.WriteLine("Lesser than or Equal to: " + result);
+
+// Not Equal To Operator
+result = (x != y);
+Console.WriteLine("Not Equal to Operator: " + result);
+```
 ### Logical Operators
 Digunakan untuk operasi aritmatika.
 | Operator | Name | Description |
@@ -224,9 +253,78 @@ Digunakan untuk operasi aritmatika.
 | || | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
 | ! | NOT | Membalikkan suatu nilai boolean, apabila kondisi terpenuhi mengembalikan false dan sebaliknya |
 
-### Bitwise Operators
+```c#
+bool a = true, b = false, result;
+
+// AND operator
+result = a && b;
+Console.WriteLine("AND Operator: " + result);
+
+// OR operator
+result = a || b;
+Console.WriteLine("OR Operator: " + result);
+
+// NOT operator
+result = !a;
+Console.WriteLine("NOT Operator: " + result);
+```
+
 ### Assignment Operators
+| Operator | Name | Description |
+| :------: | ---- | ----------- |
+| += | Add Assignment | a += b == a = a + b |
+| -= | Subtract Assignment | a -= b == a = a - b |
+| *= | Multiply Assignment | a *= b == a = a * b |
+| /= | Division Assignment | a /= b == a = a / b |
+| %= | Modulus Assignment | a %= b == a = a % b |
+
+```c#
+int x = 15;
+
+x += 10;
+Console.WriteLine("Add Assignment Operator: " + x);
+
+// initialize variable
+x = 20;
+
+x -= 5;
+Console.WriteLine("Subtract Assignment Operator: " + x);
+
+// initialize variable
+x = 15;
+
+x *= 5;
+Console.WriteLine("Multiply Assignment Operator: " + x);
+
+// initialize variable
+x = 25;
+
+x /= 5;
+Console.WriteLine("Division Assignment Operator: " + x);
+
+// initialize variable
+x = 25;
+
+x %= 5;
+Console.WriteLine("Modulo Assignment Operator: " + x);
+```
+
 ### Conditional Operator
+Conditional Operator bisa juga disebut dengan Ternary Operator
+*"condition ? first_expression : second_expression;"*
+
+```c#
+int x = 5, y = 10, result;
+
+result = x > y ? x : y;
+
+Console.WriteLine("Result: " + result);
+
+result = x < y ? x : y;
+
+Console.WriteLine("Result: " + result);
+```
+
 ## 4. Percabangan
 ### If, Else If, Else
 ### Switch
