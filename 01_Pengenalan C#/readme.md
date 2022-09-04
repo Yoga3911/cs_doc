@@ -350,16 +350,19 @@ else
 int angka = 5;
 switch (angka)
 {
+    // Apabila angka == 1
     case 1: // IF
         {
             Console.WriteLine("Senin");
             break;
         }
+    // Apabila angka == 2
     case 2: // ELSE IF
         {
             Console.WriteLine("Selasa");
             break;
         }
+    // Apabila tidak ada case yang memenuhi
     default: // ELSE
         {
             Console.WriteLine("Selasa");
