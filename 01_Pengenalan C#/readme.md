@@ -13,6 +13,7 @@
 
 ## 1. Tipe Data
 ### Integer
+Data angka yang berupa bilangan bulat positif atau negatif. ex: 1, 2, 3, 4, dst
 | Alias | .NET Type | Size | Range |
 | -------- | --------- | ---- | ----- |
 | sbyte | System.SByte | 1 byte | -128 to 127 |
@@ -41,6 +42,7 @@ Console.WriteLine(total.GetType());
 *Kapan menggunakan type short, int, long? "Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255). Apabila perlu tipe data untuk transaksi bisa menggunakan tipe int atau long."*
 
 ### Float
+Data angka yang berupa bilangan desimal. ex: 1.1, 2.2, 3.3, 4.4, dst
 | Alias | .NET Type | Size | Precision | Range | Suffix |
 | ----- | --------- | ---- | --------- | ----- | ------ |
 | float | System.Single | 4 bytes | 7 digits | +-1.5 x 10-45 to +-3.4 x 1038 | F atau f |
@@ -81,8 +83,49 @@ Console.WriteLine(benar.GetType());
 Console.WriteLine(salah.GetType());
 ```
 ### String
+String adalah tipe data yang mewakili data tekstual dalam program komputer.
+```c#
+string nama = "Budi";
+
+Console.WriteLine(nama);
+
+Console.WriteLine(nama.GetType());
+```
+*"Sama halnya dengan bahasa pemrograman lain untuk memberi nilai pada sebuah string harus diapit oleh tanda petik."*
 ### List
+```c#
+List<string> data = new List<string>();
+// Cara menambahkan data kedalam sebuah list
+data.Add("oke");
+
+List<string> data2 = new List<string>{"apel", "melon"};
+List<int> data3 = new List<int>{1, 2, 3, 4};
+
+Console.WriteLine(data[0]);
+Console.WriteLine(data2[0]);
+Console.WriteLine(data2[1]);
+Console.WriteLine(data3[0]);
+Console.WriteLine(data3[1]);
+```
+*"Perlu diperhatikan tipe data perlu diisi ketika ingin membuat sebuah List<Type>."*
 ### Dictionary
+```c#
+// Deklarasi dan inisialisasi
+Dictionary<string, int> map = new Dictionary<string, int>();
+// Tipe string -> key, int -> value
+// Cara menambahkan data kedalam sebuah Dictionary
+map.Add("umur", 20);
+Dictionary<string, int> map2 = new Dictionary<string, int>{
+    {"a", 1},
+    {"b", 2},
+    {"c", 3},
+};
+
+Console.WriteLine(map["umur"]);
+Console.WriteLine(map2["a"]);
+Console.WriteLine(map2["b"]);
+```
+*"Perlu diperhatikan tipe data untuk key dan value perlu diisi ketika ingin membuat sebuah Dictionary<Type, Type>."*
 ## 2. Variabel
 ### Strongly Type
 ### Cara Deklarasi
