@@ -366,6 +366,7 @@ switch (angka)
         }
 }
 ```
+
 ## 5. Perulangan
 ### For
 ```c#
@@ -408,16 +409,77 @@ while (angka < 10)
     angka += 2;
 }
 ```
+
 ## 6. Fungsi
 ### Void
+Fungsi dengan keyword void memiliki arti fungsi yang tidak mengembalikan nilai apapun (tidak ada return).
+```c#
+void sayHello() {
+    Console.WriteLine("Hello");
+}
+
+sayHello();
+```
+
 ## 7. Parameter
 ### No Name Parameter
+Fungsi yang ketika memberikan nilai pada parameter (attribute) ketika dipanggil tidak memerlukan key.
+```c#
+void sayHello(string name) {
+    Console.WriteLine("Hello " + name);
+}
+
+sayHello("Mamat");
+```
 ### Named Parameter
+Fungsi yang ketika memberikan nilai pada parameter (attribute) ketika dipanggil memerlukan key.
+```c#
+void sayHello(string name) {
+    Console.WriteLine("Hello " + name);
+}
+
+sayHello(name: "Eko");
+```
+
 ## 8. Return Value
-### Return String
-### Return Integer
-### Return Float
-### Return Boolean
+Fungsi yang mengembalikan suatu nilai (return) ketika dipanggil.
+```c#
+string sayHello(string name) {
+    return "Hello " + name;
+}
+
+Console.WriteLine(sayHello(name: "Eko"));
+
+int penjumlahan(int a, int b) {
+    return a + b;
+}
+
+Console.WriteLine(penjumlahan(10, 5));
+```
+
 ## 9. Bonus Keyword
 ### Keyword var
+Dengan keyword var kita bisa tidak memberika tipe data pada variable yang ingin kita buat.
+
+```c#
+var nama = "Sugeng";
+var umur = 20;
+
+Console.WriteLine(nama);
+Console.WriteLine(umur);
+
+Console.WriteLine(nama.GetType());
+Console.WriteLine(umur.GetType());
+```
+
 ### Keyword const
+Apabila kita ingin membuat sebuah variable dengan nilai yang konstan kita dapat menggunakan keyword const. *perlu diingat apabila membuat variable dengna keyword const kita tidak dapat melakukan reassign pada variable tersebut.*.
+
+```c#
+const double PI = 3.14;
+
+Console.WriteLine(PI);
+Console.WriteLine(PI.GetTypeCode());
+```
+
+*Dengan memberikan keyword const maka variable tersebut akan dibuat ketika compile time, sebaliknya jika tidak diberikan keyword const maka variable tersebut akan dibuat ketika running time. Plus nya adalah variable dengan keyword const tidak memerlukan alokasi memori ketika running time*
