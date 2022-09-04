@@ -13,7 +13,7 @@
 
 ## 1. Tipe Data
 ### Integer
-| VB Alias | .NET Type | Size | Range |
+| Alias | .NET Type | Size | Range |
 | -------- | --------- | ---- | ----- |
 | sbyte | System.SByte | 1 byte | -128 to 127 |
 | byte | System.Byte | 1 byte | 0 to 255 |
@@ -24,9 +24,40 @@
 | long | System.Int64 | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | ulong | System.UInt64 | 8 bytes | 0 to 18,446,744,073,709,551,615 |
 
-*Kapan menggunakan type short, int, long? "Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255)". Apabila perlu tipe data untuk transaksi bisa menggunakan tipe int atau long*
+```c#
+int baskets = 16;
+int applesInBasket = 24;
+
+int total = baskets * applesInBasket;
+
+Console.WriteLine($"There are total of {total} apples");
+```
+
+*Kapan menggunakan type short, int, long? "Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255). Apabila perlu tipe data untuk transaksi bisa menggunakan tipe int atau long."*
 
 ### Float
+| Alias | .NET Type | Size | Precision | Range | Suffix |
+| ----- | --------- | ---- | --------- | ----- | ------ |
+| float | System.Single | 4 bytes | 7 digits | +-1.5 x 10-45 to +-3.4 x 1038 | F atau f |
+| double | System.Double | 8 bytes | 15-16 digits | +-5.0 x 10-324 to +-1.7 x 10308 | D atau d |
+| decimal | System.Decimal | 16 bytes | 28-29 decimal places	+-1.0 x 10-28 to +-7.9 x 1028 | M atau m |
+
+```c#
+float n1 = 1.234f;
+double n2 = 1.234;
+decimal n3 = 1.234m;
+
+Console.WriteLine(n1);
+Console.WriteLine(n2);
+Console.WriteLine(n3);
+
+Console.WriteLine(n1.GetType());
+Console.WriteLine(n2.GetType());
+Console.WriteLine(n3.GetType());
+```
+
+*"Sama halnya dengan Integer, pilih tipe float sesuai kebutuhan."*
+
 ### Boolean
 ### String
 ### List
