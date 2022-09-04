@@ -252,7 +252,7 @@ Digunakan untuk operasi aritmatika.
 | Operator | Name | Description |
 | :------: | :--: | ----------- |
 | && | AND | Mengembalikan nilai true jika dua kondisi terpenuhi dan sebaliknya |
-| <p>||</p> | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
+| '||' | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
 | ! | NOT | Membalikkan suatu nilai boolean, apabila kondisi terpenuhi mengembalikan false dan sebaliknya |
 
 ```c#
