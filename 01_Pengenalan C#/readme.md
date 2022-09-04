@@ -444,12 +444,14 @@ sayHello(name: "Eko");
 ## 8. Return Value
 Fungsi yang mengembalikan suatu nilai (return) ketika dipanggil.
 ```c#
+// Mengembalikan Tipe data String
 string sayHello(string name) {
     return "Hello " + name;
 }
 
 Console.WriteLine(sayHello(name: "Eko"));
 
+// Mengembalikan Tipe data int
 int penjumlahan(int a, int b) {
     return a + b;
 }
@@ -473,7 +475,7 @@ Console.WriteLine(umur.GetType());
 ```
 
 ### Keyword const
-Apabila kita ingin membuat sebuah variable dengan nilai yang konstan kita dapat menggunakan keyword const. *perlu diingat apabila membuat variable dengna keyword const kita tidak dapat melakukan reassign pada variable tersebut.*.
+Apabila kita ingin membuat sebuah variable dengan nilai yang konstan kita dapat menggunakan keyword const. *Perlu diingat apabila membuat variable dengna keyword const kita tidak dapat melakukan reassign pada variable tersebut.*
 
 ```c#
 const double PI = 3.14;
@@ -482,4 +484,4 @@ Console.WriteLine(PI);
 Console.WriteLine(PI.GetTypeCode());
 ```
 
-*Dengan memberikan keyword const maka variable tersebut akan dibuat ketika compile time, sebaliknya jika tidak diberikan keyword const maka variable tersebut akan dibuat ketika running time. Plus nya adalah variable dengan keyword const tidak memerlukan alokasi memori ketika running time*
+*Dengan memberikan keyword const maka variable tersebut akan dibuat ketika compile time, sebaliknya jika tidak diberikan keyword const maka variable tersebut akan dibuat ketika running time. Plus nya adalah variable dengan keyword const tidak memerlukan alokasi memori ketika running time.*
