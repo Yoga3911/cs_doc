@@ -14,7 +14,7 @@
 ## 1. Tipe Data
 ### Integer
 | VB Alias | .NET Type | Size | Range |
-| :------- | --------- | ---- | ----: |
+| -------- | --------- | ---- | ----- |
 | sbyte | System.SByte | 1 byte | -128 to 127 |
 | byte | System.Byte | 1 byte | 0 to 255 |
 | short | System.Int16 | 2 bytes | -32,768 to 32,767 |
