@@ -251,9 +251,9 @@ Console.WriteLine("Not Equal to Operator: " + result);
 Digunakan untuk operasi aritmatika.
 | Operator | Name | Description |
 | :------: | :--: | ----------- |
-| `&&` | AND | Mengembalikan nilai true jika dua kondisi terpenuhi dan sebaliknya |
-| `ll` | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
-| `!` | NOT | Membalikkan suatu nilai boolean, apabila kondisi terpenuhi mengembalikan false dan sebaliknya |
+| && | AND | Mengembalikan nilai true jika dua kondisi terpenuhi dan sebaliknya |
+| ll | OR | Mengembalikan nilai true jika salah satu kondisi terpenuhi dan false jika tidak ada yang terpenuhi |
+| ! | NOT | Membalikkan suatu nilai boolean, apabila kondisi terpenuhi mengembalikan false dan sebaliknya |
 
 ```c#
 bool a = true, b = false, result;
@@ -415,6 +415,25 @@ while (angka < 10)
 }
 ```
 
+#### Continue dan Break
+`Continue` digunakan untuk menghentikan iterasi yang pada saat itu terjadi
+`Break` digunakan untuk menghentikan perulangan secara langsung 
+```c#
+for (int i = 0; i < 20; i++)
+{
+    if (i % 2 == 0)
+    {
+        continue;
+    }
+
+    if (i == 15) {
+        break;
+    }
+
+    Console.WriteLine(i);
+}
+```
+
 ## 6. Fungsi
 ### Void
 Fungsi dengan keyword void memiliki arti fungsi yang tidak mengembalikan nilai apapun (tidak ada return).
@@ -466,7 +485,7 @@ Console.WriteLine(penjumlahan(10, 5));
 
 ## 9. Bonus Keyword
 ### Keyword var
-Dengan keyword var kita bisa tidak memberika tipe data pada variable yang ingin kita buat.
+Dengan keyword `var` kita bisa tidak memberika tipe data pada variable yang ingin kita buat.
 
 ```c#
 var nama = "Sugeng";
@@ -480,7 +499,7 @@ Console.WriteLine(umur.GetType());
 ```
 
 ### Keyword const
-Apabila kita ingin membuat sebuah variable dengan nilai yang konstan kita dapat menggunakan keyword const. *Perlu diingat apabila membuat variable dengna keyword const kita tidak dapat melakukan reassign pada variable tersebut.*
+Apabila kita ingin membuat sebuah variable dengan nilai yang konstan kita dapat menggunakan keyword `const`. *Perlu diingat apabila membuat variable dengna keyword `const` kita tidak dapat melakukan reassign pada variable tersebut.*
 
 ```c#
 const double PI = 3.14;
