@@ -24,9 +24,7 @@
 | long | System.Int64 | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | ulong | System.UInt64 | 8 bytes | 0 to 18,446,744,073,709,551,615 |
 
-Pertanyaan
-Q: _Kapan menggunakan type short, int, log?_ 
-A: Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255)
+*Kapan menggunakan type short, int, long? "Sesuaikan dengan kebutuhan. Misal perlu tipe data untuk umur maka yang paling cocok digunakan adalah byte (Bernilai Positif dengan nilai 0 - 255)". Apabila perlu tipe data untuk transaksi bisa menggunakan tipe int atau long*
 
 ### Float
 ### Boolean
