@@ -10,6 +10,8 @@
 7. [Parameter](#7-parameter)
 8. [Return Value](#8-return-value)
 9. [Bonus Keyword](#9-bonus-keyword)
+10. [Input Output](#10-input-output)
+11. [Mengubah Tipe Data](#11-mengubah-tipe-data)
 
 ## 1. Tipe Data
 ### Integer
@@ -485,3 +487,22 @@ Console.WriteLine(PI.GetTypeCode());
 ```
 
 *Dengan memberikan keyword const maka variable tersebut akan dibuat ketika compile time, sebaliknya jika tidak diberikan keyword const maka variable tersebut akan dibuat ketika running time. Plus nya adalah variable dengan keyword const tidak memerlukan alokasi memori ketika running time.*
+
+## 10. Input Output
+```c#
+// Menampilkan pesan Hallo
+Console.WriteLine("Hallo"); // Output
+
+// Menampilkan pesan sesuai inputan user
+var inputan = Console.ReadLine(); // Input
+Console.WriteLine(inputan);
+```
+## 11. Mengubah Tipe Data
+```c#
+string angka = "12";
+Console.WriteLine(angka);
+Console.WriteLine(angka.GetTypeCode());
+Console.WriteLine(Convert.ToInt32(angka));
+Console.WriteLine(Convert.ToInt32(angka).GetType());
+```
+*Dengan lib Convert kalian dapat mengubah tipe data sesuai yang kalian inginkan. Namun perlu diperhatikan kecocokannya. Apabila terdapat sebuah text dengan nilai berupa huruf maka tentu saja tidak bisa di convert kedalam bentuk integer, float dan boolean.*
