@@ -1,0 +1,15 @@
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\bin\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.exe
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\bin\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.deps.json
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\bin\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.runtimeconfig.json
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\bin\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.dll
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\bin\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.pdb
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.csproj.AssemblyReference.cache
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.AssemblyInfoInputs.cache
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.AssemblyInfo.cs
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.csproj.CoreCompileInputs.cache
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.dll
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\refint\06_Asosiasi_Agregasi_Komposisi.dll
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.pdb
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\06_Asosiasi_Agregasi_Komposisi.genruntimeconfig.cache
+D:\Code\C#\pbo_2022\cs_doc\06_Asosiasi_Agregasi_Komposisi\obj\Debug\net6.0\ref\06_Asosiasi_Agregasi_Komposisi.dll
